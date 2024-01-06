@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#" ><img src="images/logo.png" class="logo"></a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="navigation">
+          <li>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">What's New</a>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>It's not just coffee<br>It's <span>Starbucks</span></h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="imgBox">
+          <img src="images/img1.png" class="starbucks">
+        </div>
+      </div>
+      <ul class="thumb">
+        <li><img src="images/thumb1.png" onclick="imgSlider('images/img1.png');changeCircleColor('#017143')"></li>
+        <li><img src="images/thumb2.png" onclick="imgSlider('images/img2.png');changeCircleColor('#eb7495')"></li>
+        <li><img src="images/thumb3.png" onclick="imgSlider('images/img3.png');changeCircleColor('#d752b1')"></li>
+      </ul>
+      <ul class="sci">
+        <li><a href="#"><img src="images/facebook.png"></a></li>
+        <li><a href="#"><img src="images/twitter.png"></a></li>
+        <li><a href="#"><img src="images/instagram.png"></a></li>
+      </ul>
+    </section>
+    <script src="main.js" type="text/javascript"></script>
+  </body>
+</html>
